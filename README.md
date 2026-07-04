@@ -1,13 +1,90 @@
-# Linux System Audit Tool
+# 🐧 Linux System Audit
 
-A Bash-based Linux auditing tool that collects and analyzes important system information automatically.
+A Bash-based Linux system audit script that collects important system information, creates backups, checks permissions, and generates useful reports for system administrators.
 
-## Features
+---
 
-* Extract system users
-* Detect Bash users
-* Generate system information reports
-* Collect configuration files
-* Analyze log files
-* Backup critical files
-* Check file permissions
+## 📋 Features
+
+- 📂 Creates required working directories
+- 👤 Lists system users
+- 🖥️ Displays Linux system information
+- 📄 Reads and analyzes configuration files
+- 🔐 Checks file permissions
+- 💾 Creates backup files
+- 🧹 Cleans temporary files
+- 📊 Generates audit reports
+
+---
+
+## 🛠️ Technologies
+
+- Bash
+- Linux
+- Shell Scripting
+- Git
+- GitHub
+
+---
+
+## 🚀 How to Run
+
+```bash
+chmod +x system_audit_exam.sh
+./system_audit_exam.sh
+```
+
+---
+
+## 📂 Project Structure
+
+```
+linux-system-audit/
+│
+├── system_audit_exam.sh
+├── README.md
+└── screenshots/
+```
+
+---
+
+# 📸 Screenshots
+
+## Main Menu
+
+![Audit](screenshots/linux-audit1.png)
+
+## Generated Report
+
+![Report](screenshots/linux-audit2.png)
+
+
+---
+
+## 📈 Sample Output
+
+```text
+=========================================
+        Linux System Audit Tool
+=========================================
+
+[✓] Creating audit directory...
+[✓] Collecting system information...
+[✓] Reading configuration files...
+[✓] Checking file permissions...
+[✓] Creating backup...
+[✓] Cleaning temporary files...
+
+Audit completed successfully!
+```
+
+---
+
+## 👨‍💻 Author
+
+**Zahra Solhjoo**
+
+GitHub:
+https://github.com/zahra-solhjoo
+
+⭐ If you like this project, please give it a star.
