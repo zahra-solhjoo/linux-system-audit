@@ -52,11 +52,11 @@ linux-system-audit/
 
 ## Main Menu
 
-![Audit](screenshots/linux-audit1.png)
+![Audit](images/linux-audit1.png)
 
 ## Generated Report
 
-![Report](screenshots/linux-audit2.png)
+![Report](images/linux-audit2.png)
 
 
 ---
